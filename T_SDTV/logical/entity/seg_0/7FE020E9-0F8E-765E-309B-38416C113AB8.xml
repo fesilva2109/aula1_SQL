@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7FE020E9-0F8E-765E-309B-38416C113AB8" name="T_SDVT_USUARIO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:44:21 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="US_ID" id="14A0E25B-2DCA-6DE5-E643-5C165EC4A66F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:44:44 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="US_NOME" id="33DAD700-9329-BB89-C8DB-1776B29D58A5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:45:37 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="US_CPF" id="FC8647B7-7B42-BA39-F7F3-56C6F0D331C1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:45:56 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="US_TELEFONE" id="DC558AF7-D42E-799B-CCF4-D73F2BA0CCB1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:46:32 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="US_EMAIL" id="0E99BA6C-3CEA-B166-98CB-67275EFFDEFC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:46:51 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="US_ENDERECO" id="61AD74B3-AD0E-40F9-6065-ECD34D6844BB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:47:06 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BE2B7F94-400A-4B8F-B9C4-299B6A41BBF8" name="T_SDVT_USUARIO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:45:00 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>14A0E25B-2DCA-6DE5-E643-5C165EC4A66F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="70A15D5C-90E7-41D7-1EB6-0502E380BAFA" name="UN_US_ENDERECO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:50:31 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<synonym>UN_US_ENDERECO</synonym>
+<newElementsIDs>0E99BA6C-3CEA-B166-98CB-67275EFFDEFC</newElementsIDs>
+<usedAttributes>
+<attributeRef>0E99BA6C-3CEA-B166-98CB-67275EFFDEFC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

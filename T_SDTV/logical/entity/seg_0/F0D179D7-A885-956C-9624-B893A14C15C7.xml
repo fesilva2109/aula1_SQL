@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0D179D7-A885-956C-9624-B893A14C15C7" name="T_SDVT_VEICULO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:51:18 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name=" VCL_ID" id="27C83E71-1DD0-E648-7339-9C634BE4D11E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:51:28 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VCL_PLACA" id="99380D79-AC8F-B1E1-3486-C399BEF723AB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:51:50 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VCL_MARCA " id="CD7E6F11-EA9B-CF7C-A014-6360F5CB55D8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:52:04 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" VCL_MODELO" id="3C886E35-C98A-859C-425E-721DEC941D0E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:53:08 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" VCL_ANO " id="F3865D57-272C-7F2E-9426-D2ED09E0207F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:53:23 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VCL_KM" id="D741226F-6C81-7B2F-C0FE-54CE1EAAA751">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:54:22 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BBCF304B-01C7-5CAD-63AE-B1DB463D0A24" name="T_SDVT_VEICULO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:51:46 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<engineerTo>
+<item key="69AE22A0-9C04-545E-352D-AB0A4FE54DA9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>27C83E71-1DD0-E648-7339-9C634BE4D11E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

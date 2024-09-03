@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="T_SDTV" id="1DF7A300-0AEB-F469-4A71-63E4DB61B5C7" version="3.5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-02 23:44:13 UTC</createdTime>
+<ownerDesignName>T_SDTV</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1DF7A300-0AEB-F469-4A71-63E4DB61B5C7</designId>
+</OSDM_Design>
