@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RHSTU_LOGR_UNID_HOSP" directorySegmentName="seg_0" id="C9AA404F-3F73-B562-BF2E-D5A73690E21C">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-03 01:50:07 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<sourcePk>CAC38B00-31A4-2DC1-1A57-0768C14386F7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF36AE33-0C04-3207-A42D-300BDBCD0474</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A769596-8442-81C5-8E8B-9FFE4C17B2D7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,211 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FA23836-5138-25D6-5FCA-E0F02E0CE7A9" name="T_RHSTU_UNID_HOSPITALAR">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<generatorID>8A769596-8442-81C5-8E8B-9FFE4C17B2D7</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_UNID_HOSPITAL" id="9659E788-4B7A-D060-4144-4945F97791CC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da Unidade Hospitalar. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária da Unidade Hospitalar. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>C3796F42-602F-5AE2-4BB7-9B2AE3D1F6B4</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_LOGRADOURO" id="7FCCF067-36E0-BDBE-1A9D-0559600D8964">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo interno para garantir o lograouro, que esta localizado no  cadastro dos  Bairros da Cidade do Estado do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo interno para garantir o lograouro, que esta localizado no  cadastro dos  Bairros da Cidade do Estado do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></commentInRDBMS>
+<generatorID>8745202E-085D-28B9-1FC3-91269C21AFE0</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3917EDAF-CD43-451A-2B9C-A5F8E3145F18" referredColumn="37C750A3-D0F7-F548-2654-E2AE105C0046"/>
+</associations>
+</Column>
+<Column name="NM_UNID_HOSPITALAR" id="B45CBFCF-6564-0EF7-6B87-2BBA96E094CA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome da unidade hospitalar. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome da unidade hospitalar. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>C6A15613-6831-D4DB-312C-D304AA94D315</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_RAZAO_SOCIAL_UNID_HOSP" id="14C0F8B4-C7D9-6D7B-1059-F7400F37A1D2">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a razão social da unidade hospitalar. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a razão social da unidade hospitalar. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>A4261440-ADDF-8394-22C5-FB3922BF7F38</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FUNDACAO" id="20448C47-9758-86EA-F929-139F2E9F2412">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de fundação da unidade hospitalar. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de fundação da unidade hospitalar. Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>39CDA9CB-A12F-65FE-6560-0F46BCA8CC9E</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_LOGRADOURO" id="8A4EA6B2-11B0-5997-7199-3FD616768CBC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do logradouro do endereco da Unidade Hospitalar.  Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do logradouro do endereco da Unidade Hospitalar.  Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>BEFA1CDF-6BBD-BDF9-8E64-507D81834812</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_COMPLEMENTO_NUMERO" id="81E7E2F5-2A87-0004-FADE-1CE2D5550682">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o complemeneto  do logradouro do endereco da Unidade Hospitalar caso ele exista. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o complemeneto  do logradouro do endereco da Unidade Hospitalar caso ele exista. Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>D1C782A3-3034-DBD3-D18D-AF95A37D169B</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_PONTO_REFERENCIA" id="6BC0F2A4-A0A9-77AE-E847-132184691F10">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o ponto de referência  do logradouro do endereco da unidade hospitalar.  Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o ponto de referência  do logradouro do endereco da unidade hospitalar.  Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>9205F067-F98B-4C26-682B-85E0CC2C88EB</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="2BDAB323-E6AD-25CB-1CB0-B58EE9783C99">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data inicio do endereço da Unidade Hospitalar associado ao endereço (logradouro). Seu conteúdo é obrigatorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data inicio do endereço da Unidade Hospitalar associado ao endereço (logradouro). Seu conteúdo é obrigatorio.]]></commentInRDBMS>
+<generatorID>F3F226C7-837E-2916-32F9-ABEDED13AC27</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_TERMINO" id="05783F1B-4B8F-C613-5371-DDFA29154D33">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data término  do endereço da Unidade Hospitalar associado ao endereço (logradouro). Seu conteúdo é opcional..]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data término  do endereço da Unidade Hospitalar associado ao endereço (logradouro). Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>53F31854-0505-D242-7123-51F4FB4786D6</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="4E3C7CAC-1888-CF17-9DBC-0E11A508F0CA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre a data de cadastro da tabela, sendo obrigatorio
+]]></commentInRDBMS>
+<generatorID>06E0BB2D-B66F-13A4-2C20-EA5B19CBAAE7</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="5CEC6D47-F249-591A-AB66-0CEF4C53C7B4">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA, SENDO OBRIGATÓRIO, CONTENDO 30 CARACTERES]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o nome do usuário que realizou o cadastro na tabela, sendo obrigatório, contendo 30 caracteres]]></commentInRDBMS>
+<generatorID>64B943E6-532E-215D-D885-E3A2715C2FFE</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01CD8DA4-5381-0CF4-B8A4-2E80FCD09648" name="PK_RHSTU_UNI_HOSP_END">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<generatorID>D6771B1E-419B-D345-0A01-83C5F181A2D9</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9659E788-4B7A-D060-4144-4945F97791CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FEE97E9-AA96-F94C-D461-C55760A491A1" name="FK_RHSTU_LOGR_UNID_HOSP">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<generatorID>C9AA404F-3F73-B562-BF2E-D5A73690E21C</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FCCF067-36E0-BDBE-1A9D-0559600D8964"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

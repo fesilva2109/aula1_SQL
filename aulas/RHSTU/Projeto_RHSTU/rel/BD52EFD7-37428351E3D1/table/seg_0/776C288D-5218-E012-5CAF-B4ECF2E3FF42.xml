@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="776C288D-5218-E012-5CAF-B4ECF2E3FF42" name="T_RHSTU_FORMA_PAGAMENTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<generatorID>4E669F69-BDAD-1338-53E6-A52CD1549F1D</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FORMA_PAGTO" id="44F932D6-7A46-5569-CEB9-0EE3FC851124">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da forma de pagamento. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária da forma de pagamento. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>4E218399-9591-8C64-43AD-E05DDEC8D090</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_FORMA_PAGTO" id="1BA1167E-FC42-74CC-4028-ED8A03FC425B">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome da forma de pagamento. Seu conteúdo é obrigatório]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome da forma de pagamento. Seu conteúdo é obrigatório]]></commentInRDBMS>
+<generatorID>87261BC3-BA83-EECF-A27E-BD77C33BEDDB</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_FORMA_PAGTO" id="E394113A-9315-54E0-CCDA-B894496C076D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a descrição da forma de pagamento. Seu conteúdo não é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a descrição da forma de pagamento. Seu conteúdo não é obrigatório.]]></commentInRDBMS>
+<generatorID>E17893FB-C6B7-0BF6-4991-7FE9BAE4DE41</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_FORMA_PAGTO" id="18E2D081-2AD6-099E-A803-A569BE3EA18F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o status da forma de pagamento. Seu conteúdo é obrigatório e deve possuir os seguintes valores: (A)tivo ou (I)nativo.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o status da forma de pagamento. Seu conteúdo é obrigatório e deve possuir os seguintes valores: (A)tivo ou (I)nativo.]]></commentInRDBMS>
+<generatorID>61755199-4F7A-4252-D061-4ABFD3F1B410</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<constraintName>UK_RHSTU_STATUS_FORMA_PAGTO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Forma de pagamento Ativa e operante."/>
+<valueDef value="I" description="Forma de pagamento inativa."/>
+</listOfValues>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="B7F696B5-3B6F-594A-FD7F-4E5F83912CC2">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre a data de cadastro da tabela, sendo obrigatorio
+]]></commentInRDBMS>
+<generatorID>F9A265B4-2710-C190-A15E-F59B7349DA0E</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="B114B22B-076C-B269-1457-A0EB29F01A84">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA, SENDO OBRIGATÓRIO, CONTENDO 30 CARACTERES]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o nome do usuário que realizou o cadastro na tabela, sendo obrigatório, contendo 30 caracteres]]></commentInRDBMS>
+<generatorID>00422E01-9148-77FF-C4EA-9B7085C5ADA6</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="364956F1-0E7D-5A93-34EB-C1C8229E839E" name="PK_RHSTU_FORMA_PAGTO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<generatorID>55F73CDA-78DE-9172-EC31-1DE605267B8F</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44F932D6-7A46-5569-CEB9-0EE3FC851124"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

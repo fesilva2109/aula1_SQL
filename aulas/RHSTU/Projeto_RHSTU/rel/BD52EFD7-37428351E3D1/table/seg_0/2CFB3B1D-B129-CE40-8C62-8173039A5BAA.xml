@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CFB3B1D-B129-CE40-8C62-8173039A5BAA" name="T_RHSTU_PLANO_SAUDE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<generatorID>79FECE95-CF66-DB38-4C06-AF9CA83F1DA9</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PLANO_SAUDE" id="FBF15CA3-9435-1DE1-8431-82936071A247">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do plano de saúde. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do plano de saúde. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>E40D7012-4CE7-F19C-25A9-4951C8D0B3B5</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_RAZAO_SOCIAL" id="F4DBF4A7-BD11-5D47-BBFF-1E93BBEF5FE1">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber Razão Social do plano de saúde aceito na RHSTU. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber Razão Social do plano de saúde aceito na RHSTU. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>3BD6BF87-0C20-C94A-70E3-02554EC05C3C</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_FANTASIA_PLANO_SAUDE" id="6CDD84C5-B87E-00B5-55BC-944F4788216F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome Fantasia do plano de saúde aceito na RHSTU. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome Fantasia do plano de saúde aceito na RHSTU. Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>B179C357-52FE-133B-9AE7-60FFFEAD01BA</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_PLANO_SAUDE" id="BA6059E4-10CB-F0C5-2CA9-0813009FB5A1">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a descrição do  plano de saúde aceito na RHSTU. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a descrição do  plano de saúde aceito na RHSTU. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>975427DC-B8E4-13C3-A220-10810268B583</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CNPJ" id="9436EC11-FBB4-9CC3-6A37-FCD4C5FCB8E7">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o numero do CNPJ do plano de saúde aceito na RHSTU. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o numero do CNPJ do plano de saúde aceito na RHSTU. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>E5F89278-8A88-476E-BC8E-B1C16BE37BEE</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CONTATO" id="7D08A609-E507-778B-B697-6D6D3366CBCA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome  do contato dentro do plano de saúde aceito na RHSTU. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome  do contato dentro do plano de saúde aceito na RHSTU. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>0C21C6E8-AA7C-6AFE-0CCA-6FB5993DCBB5</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_TELEFONE" id="29F045F4-925F-B737-E53C-CF10357D8049">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber os dados do telefone para contato no plano de saúde aceito na RHSTU. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber os dados do telefone para contato no plano de saúde aceito na RHSTU. Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>61D1993B-8D1D-CCD9-5EE6-924B2090D5CF</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="4DEB0242-434F-80C4-2111-49E4490DC621">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de início para atendimento do plano de saúde aceito na RHSTU. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de início para atendimento do plano de saúde aceito na RHSTU. Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>2CBCBFFD-83CC-3BED-3A9D-73DB3F1D5F29</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FIM" id="0D39F570-066B-89E7-848E-3B9C0283ABE9">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de encerramento do plano de saúde aceito na RHSTU. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de encerramento do plano de saúde aceito na RHSTU. Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>08E2CB71-0533-734C-ABE8-F5DF6EF4CA04</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="111DF810-EB0A-2D3B-DB3A-929C58AE40AF">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre a data de cadastro da tabela, sendo obrigatorio
+]]></commentInRDBMS>
+<generatorID>2D613B4F-A913-A937-D869-D6ADC00F6948</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="E54C9DE3-3A5F-383F-0949-92556A2B1B76">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA, SENDO OBRIGATÓRIO, CONTENDO 30 CARACTERES]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o nome do usuário que realizou o cadastro na tabela, sendo obrigatório, contendo 30 caracteres]]></commentInRDBMS>
+<generatorID>6AD4AFCD-BE8E-A8E7-6DAC-D26C9264F493</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D9AC5A7-3FB3-1947-187D-B0B495A755FC" name="PK_RHSTU_PLANO_SAUDE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<generatorID>BEDCCAD8-64CB-CF32-3D30-ED85E07CAA9F</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBF15CA3-9435-1DE1-8431-82936071A247"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EF36AE33-0C04-3207-A42D-300BDBCD0474" name="T_RHSTU_LOGRADOURO">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:20:54 UTC</createdTime>
+<generatorID>8F74FFBE-B788-8FC3-51DC-3EDFC10258D8</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_LOGRADOURO" id="6AE78D81-1655-3825-3B5F-64B2D9C0E214">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:20:54 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo interno para garantir o lograouro, que esta localizado no  cadastro dos  Bairros da Cidade do Estado do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo interno para garantir o lograouro, que esta localizado no  cadastro dos  Bairros da Cidade do Estado do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<importedID>2C1D3437-292E-A5C9-C6DA-CEB7E5673756</importedID>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_BAIRRO" id="12209B7E-E199-0F1F-97C5-65EA383E7F01">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:20:54 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo interno para garantir o cadastro dos  Bairros da Cidade do Estado do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo interno para garantir o cadastro dos  Bairros da Cidade do Estado do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></commentInRDBMS>
+<generatorID>DBB65F97-DD23-AFDD-4633-4CB296E35174</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<importedID>63756556-CFCE-F583-BFAC-F7B922BB8960</importedID>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<referedAttribute>1ECB01D1-8E17-7B14-467D-D88496EA9B1D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_LOGRADOURO" id="0DEA52C5-ABEF-92D7-C0E9-B1E63FB19C1B">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:20:54 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o nome do lograoduro. O padrão de armazenmento é  InitCap e seu conteúdo é obrigatório. Essa tabela já será preenchida pela área responsável. Novas inseções necessitam ser avaladas pelos gestores.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o nome do lograoduro. O padrão de armazenmento é  InitCap e seu conteúdo é obrigatório. Essa tabela já será preenchida pela área responsável. Novas inseções necessitam ser avaladas pelos gestores.]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<importedID>2AAA9FB2-518F-5CD0-1713-ED774E603988</importedID>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CEP" id="33FDE320-D02D-D52F-D322-FEDB439A701F">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:20:54 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o número do CEP do lograoduro. O padrão de armazenmento é  numérico  e seu conteúdo é obrigatório. Essa tabela já será preenchida pela área responsável. Novas inseções necessitam ser avaladas pelos gestores.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o número do CEP do lograoduro. O padrão de armazenmento é  numérico  e seu conteúdo é obrigatório. Essa tabela já será preenchida pela área responsável. Novas inseções necessitam ser avaladas pelos gestores.]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<importedID>BB6C82A8-6A8F-33C4-BD7F-5309B3914975</importedID>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO" id="E760E6AF-CCE5-88B0-EE09-DF2A2F3FF27C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 22:45:45 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre a data de cadastro da tabela, sendo obrigatorio
+]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_USUARIO" id="A7D844A8-AA0F-FB01-7A78-5F36E8235036">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 22:50:27 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA, SENDO OBRIGATÓRIO, CONTENDO 30 CARACTERES]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o nome do usuário que realizou o cadastro na tabela, sendo obrigatório, contendo 30 caracteres]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CAC38B00-31A4-2DC1-1A57-0768C14386F7" name="PK_RHSTU_LOGRADOURO">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:20:54 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6AE78D81-1655-3825-3B5F-64B2D9C0E214</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RHSTU_ESTADO_CIDADE" directorySegmentName="seg_0" id="7A44CA83-2567-601B-3A93-654A32B8C4FE">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:20:54 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<sourcePk>84B5312C-1105-43DC-3AA4-24C5422A01CD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7F97AFCE-66B0-EFFB-374D-972A410BD8AB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6AD84641-74C7-941E-D851-BC47522F588A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

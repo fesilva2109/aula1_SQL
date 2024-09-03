@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="62D01CD6-2F78-C150-EDE6-828E39ACBC85" name="T_RHSTU_ENDERECO_PACIENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 17:54:59 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ENDERECO" id="32EBDEEA-5BBC-83EB-392C-36D4A70E330E">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 17:54:59 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do endereco do paciente. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do endereco do paciente. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PACIENTE" id="4FD73CEF-12AF-D7B2-5A4F-6ADB30839B61">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 17:56:08 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>B99331BB-0605-C347-7BB9-BF08521D724D</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<referedAttribute>15A097FF-A07C-398B-0F86-D42FFB66F5C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_LOGRADOURO" id="735F2D7C-9FAF-1AEE-0A5A-AB96185FA514">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:34:01 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo interno para garantir o lograouro, que esta localizado no  cadastro dos  Bairros da Cidade do Estado do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo interno para garantir o lograouro, que esta localizado no  cadastro dos  Bairros da Cidade do Estado do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></commentInRDBMS>
+<generatorID>6177A758-C962-F731-DD11-84E24402812C</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<referedAttribute>6AE78D81-1655-3825-3B5F-64B2D9C0E214</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_LOGRADOURO" id="E61661E6-0045-3D86-283D-C93E72DCF5FC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 17:54:59 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do logradouro do endereco do paciente.  Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do logradouro do endereco do paciente.  Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_COMPLEMENTO_NUMERO" id="5D6DA85B-69A9-E69F-FF6C-AB50F7E5338D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 17:57:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o complemeneto  do logradouro do endereco do paciente caso ele exista. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o complemeneto  do logradouro do endereco do paciente caso ele exista. Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PONTO_REFERENCIA" id="2C9A46D9-0E43-5ACF-B615-9CD0AAD60592">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 17:54:59 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o ponto de referência  do logradouro do endereco do paciente.  Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o ponto de referência  do logradouro do endereco do paciente.  Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="543BCFB5-598F-4903-D6E1-2FDE9AEAD2FE">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:31:57 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data inicio do paciente associado ao endereço (logradouro). Seu conteúdo é obrigatorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data inicio do paciente associado ao endereço (logradouro). Seu conteúdo é obrigatorio.]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_FIM" id="5117B6B3-42E9-3923-BA99-D637098F891E">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:32:36 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data fim do paciente associado ao endereço (logradouro), ou seja, ele não reside mais nesse endereço.  Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data fim do paciente associado ao endereço (logradouro), ou seja, ele não reside mais nesse endereço.  Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO" id="D47E5F20-84BA-48F7-9154-6DE7A0A7E11C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 22:44:50 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre a data de cadastro da tabela, sendo obrigatorio
+]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_USUARIO" id="252373A7-A1D9-E4B4-892D-61B0322DFD56">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 22:50:03 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA, SENDO OBRIGATÓRIO, CONTENDO 30 CARACTERES]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o nome do usuário que realizou o cadastro na tabela, sendo obrigatório, contendo 30 caracteres]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4EA9EDAB-70B0-AFCE-2E4C-A9C1029E4A66" name="PK_RHSTU_ENDERECO_PACIENTE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-03-17 17:54:59 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>32EBDEEA-5BBC-83EB-392C-36D4A70E330E</newElementsIDs>
+<usedAttributes>
+<attributeRef>32EBDEEA-5BBC-83EB-392C-36D4A70E330E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

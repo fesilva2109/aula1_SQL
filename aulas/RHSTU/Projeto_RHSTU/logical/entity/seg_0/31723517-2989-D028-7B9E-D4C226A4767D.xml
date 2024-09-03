@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31723517-2989-D028-7B9E-D4C226A4767D" name="T_RHSTU_CONSULTA">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-04-29 12:55:52 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_UNID_HOSPITAL" id="B6C488CB-AE82-A793-0536-0FCACEBB3861">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-04-29 13:12:40 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da Unidade Hospitalar. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária da Unidade Hospitalar. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>A13A1EBB-693F-9AEF-C9E5-3E59D154F9D3</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<referedAttribute>C3796F42-602F-5AE2-4BB7-9B2AE3D1F6B4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CONSULTA" id="4DC2BBD4-5844-F984-AA0B-B83576D7F211">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-04-29 12:55:52 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ DADOS DO ID DA CONSULTA, SENDO GERADO SEQUENCIALMENTE]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ DADOS DO ID DA CONSULTA, SENDO GERADO SEQUENCIALMENTE]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<importedID>90BFBD1E-F0EA-9FAE-CC69-0DE8BEAD8917</importedID>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PACIENTE" id="AE16BCCF-B954-6824-F7DB-300D2318D9B2">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-04-29 12:58:39 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>911D582F-E5D9-B53A-08A1-2336487045C2</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<referedAttribute>15A097FF-A07C-398B-0F86-D42FFB66F5C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_MEDICO" id="4ADC3A8B-EDCB-8300-F9D5-2595EE930581">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-04-29 12:58:54 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do médico. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do médico. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>D2E39926-C7CB-40C3-CCFE-0A79C9A7B3BB</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<referedAttribute>1B9CB403-E629-65E7-585F-DA2527A66279</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_HR_CONSULTA" id="E984FC82-E115-71C8-5FDA-85BB1A35804F">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-04-29 12:55:52 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ DADOS SOBRE A DATA E HORA DA CONSULTA, SENDO OBRIGATÓRIO]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ DADOS SOBRE A DATA E HORA DA CONSULTA, SENDO OBRIGATÓRIO]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<importedID>C8F34890-9578-86BE-EC4B-AC098D9014B1</importedID>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CONSULTORIO" id="27D923EF-8051-DAC9-6DAC-2BE39E00AAB0">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-04-29 12:55:52 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ DADOS SOBRE O NUMERO DO CONSULTÓRIO EM QUE A CONSULTA SERÁ FEITA, SENDO OBRIGATÓRIO]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ DADOS SOBRE O NUMERO DO CONSULTÓRIO EM QUE A CONSULTA SERÁ FEITA, SENDO OBRIGATÓRIO]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<importedID>82D8EF1C-5CC4-0A80-0925-E8ED55101543</importedID>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO" id="6449B0AF-0130-3D19-3597-C3F954D81167">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 22:43:35 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre a data de cadastro da tabela, sendo obrigatorio
+]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_USUARIO" id="3DCAD22D-731D-3C55-C818-AC8A24C49874">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 22:49:19 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA, SENDO OBRIGATÓRIO, CONTENDO 30 CARACTERES]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o nome do usuário que realizou o cadastro na tabela, sendo obrigatório, contendo 30 caracteres]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94012AC5-2823-C905-42C8-C02D1BAAFCE4" name="PK_RHSTU_CONSULTA">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-04-29 12:55:52 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>4DC2BBD4-5844-F984-AA0B-B83576D7F211,A13A1EBB-693F-9AEF-C9E5-3E59D154F9D3</newElementsIDs>
+<usedAttributes>
+<attributeRef>4DC2BBD4-5844-F984-AA0B-B83576D7F211</attributeRef>
+<attributeRef>B6C488CB-AE82-A793-0536-0FCACEBB3861</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

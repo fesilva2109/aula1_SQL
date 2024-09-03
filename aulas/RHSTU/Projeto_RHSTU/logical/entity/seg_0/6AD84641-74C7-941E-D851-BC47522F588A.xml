@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6AD84641-74C7-941E-D851-BC47522F588A" name="T_RHSTU_CIDADE">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:20:54 UTC</createdTime>
+<generatorID>07A77A55-CE36-8E78-D975-56AE32DD5E37</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CIDADE" id="61BDFDC6-6C67-88C6-EF74-7EE2BAF780A0">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:20:54 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório e será preenchido automaticamente pelo sistema.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório e será preenchido automaticamente pelo sistema.
+
+]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<importedID>E84F8D31-FAE1-BD96-A255-CBC51B065EAE</importedID>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTADO" id="06EF4EED-C966-86D4-E1AE-D1EF3B1CA1D5">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:20:54 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo interno para garantir unicidade dos Estados do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo interno para garantir unicidade dos Estados do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></commentInRDBMS>
+<generatorID>7A44CA83-2567-601B-3A93-654A32B8C4FE</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<importedID>C8ED6CD5-F243-DCFE-EF6A-43C8197C95C4</importedID>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<referedAttribute>29565B2C-9238-D133-53D1-0C1B837174E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CIDADE" id="2673F94F-8DF5-0569-82D2-21D35E690659">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:20:54 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o nome do Cidade pertencente ao Estado Brasileiro. O padrão de armazenmento é  InitCap e seu conteúdo é obrigatório. Essa tabela já será preenchida pela área responsável. Novas inseções necessitam ser avaladas pelos gestores.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o nome do Cidade pertencente ao Estado Brasileiro. O padrão de armazenmento é  InitCap e seu conteúdo é obrigatório. Essa tabela já será preenchida pela área responsável. Novas inseções necessitam ser avaladas pelos gestores.]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<importedID>A50E84AD-4086-2C0A-2A05-02F075E14236</importedID>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_IBGE" id="553A0CD7-5D5C-7FB5-B726-E4E361E223B5">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:20:54 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código do IBGE que fornece informações para geração da NFe.]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<importedID>AD8427CF-BA43-9DB8-3767-BDC9DAA1EC23</importedID>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DDD" id="CDD18476-F944-37EE-D639-04D7A1F9113D">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:20:54 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ DADOS DO NUMERO DO DDD, SENDO OBRIGATÓRIO]]></comment>
+<commentInRDBMS><![CDATA[ESSE ATRIBUTO RECEBERÁ DADOS DO NUMERO DO DDD, SENDO OBRIGATÓRIO]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<importedID>F3E851D9-951E-6CD3-33E4-FF2895E522EB</importedID>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO" id="3D0BFFB6-BF3A-177B-F9F6-2F715A9A6C53">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 22:46:12 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE A DATA DE CADASTRO DA TABELA, SENDO OBRIGATORIO]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre a data de cadastro da tabela, sendo obrigatorio
+]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_USUARIO" id="4FE63F68-11C4-B881-68EF-DC596AB62720">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 22:50:41 UTC</createdTime>
+<comment><![CDATA[ESSE ATRIBUTO RECEBERÁ INFORMAÇÕES SOBRE O NOME DO USUÁRIO QUE REALIZOU O CADASTRO NA TABELA, SENDO OBRIGATÓRIO, CONTENDO 30 CARACTERES]]></comment>
+<commentInRDBMS><![CDATA[esse atributo receberá informações sobre o nome do usuário que realizou o cadastro na tabela, sendo obrigatório, contendo 30 caracteres]]></commentInRDBMS>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="727A5E65-2160-59DA-D726-F4D7699E4E27" name="PK_RHSTU_CIDADE">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:20:54 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61BDFDC6-6C67-88C6-EF74-7EE2BAF780A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

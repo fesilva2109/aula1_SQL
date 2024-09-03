@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF3021E3-E400-DEED-FA4E-F296B9E2312A" containerWithKeyObject="56C41142-C9CD-66A2-CCBE-A4D1C56B8DD8" localFKIndex="9BB21F91-C7FC-42E5-719B-B455D986B5EB" name="FK_RHSTU_BAIRRO_LOGRADOURO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2023-05-13 15:16:44 UTC</createdTime>
+<generatorID>DBB65F97-DD23-AFDD-4633-4CB296E35174</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<referredTableLongName>T_RHSTU_BAIRRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>55E66421-0BB7-9CEC-2EAA-ED94FCB19F79</referredTableID>
+<keyObject>7ABA8E3E-44B5-3295-039D-BE33ABA2CCE5</keyObject>
+<referredKeyID>7ABA8E3E-44B5-3295-039D-BE33ABA2CCE5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_BAIRRO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RHSTU_CIDADE_BAIRRO" directorySegmentName="seg_0" id="C31FED11-1D9C-9238-DF35-C2367D31CAF5">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-08-02 12:20:54 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="E7F19300-F139-548B-9286-C64BD95CAE2D" value="true"/>
+</engineerTo>
+<sourcePk>727A5E65-2160-59DA-D726-F4D7699E4E27</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6AD84641-74C7-941E-D851-BC47522F588A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2E17E053-B7F9-61F5-7EE4-7762B7062211</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
